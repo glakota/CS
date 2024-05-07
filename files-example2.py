@@ -1,5 +1,5 @@
 # open the file for reading
-file = open("daffodils.txt",'r')
+file = open("textfile.txt",'r')
 lines = file.readlines()
 for line in lines:
     print(line)
